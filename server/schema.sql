@@ -1,0 +1,2 @@
+-- Re-exporting root schema.sql for server-level deployments
+-- See ../schema.sql for the complete canonical file.

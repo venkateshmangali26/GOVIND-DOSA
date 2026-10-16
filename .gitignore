@@ -1,0 +1,16 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+dist/
+build/
+client/dist/
+.env
+.env.local
+.env.*.local
+.DS_Store
+.vscode/
+.idea/
+*.log
+.vercel
+.netlify
+.cache/

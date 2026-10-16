@@ -1,0 +1,18 @@
+{
+  "name": "govind-dosa-suite",
+  "version": "1.0.0",
+  "description": "Custom full-stack web application and CRM pipeline for Govind Dosa, Hyderabad",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "bun server/server.js",
+    "dev:client": "bun run --cwd client dev",
+    "dev": "bun node_modules/concurrently/dist/bin/concurrently.js \"bun server/server.js\" \"bun run --cwd client dev\"",
+    "build": "bun run --cwd client build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "Venkatesh-91",
+  "license": "UNLICENSED"
+}
